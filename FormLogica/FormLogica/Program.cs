@@ -37,8 +37,34 @@ namespace FormLogica
             // Fim da instrução    | ;
             // tipo nomevariavel atribuição valor/operação/função fimdainstrução | string inNome = "Rosadev";
 
+            // SAÍDA DE DADOS
+            // Console.WriteLine(parametro);  |  Elemento atribuição metodo(parametro) fimdainstrução
+            // Console     | Elemento
+            // .           | Forma de atribuir um método a um elemento
+            // WriteLine   | Método pra realizar saída de dados. Recurso do namespace System.
+            // (parametro) | O que desejamos que seja exibido como saída de dados
+            // ;           | Fim da instrução
+
+            // INTERPOLAÇÃO DE STRINGS
+            // Forma usada concatenar dados string com variaveis
+            // ($"texto {variavel} texto {inSobrenome}")
+
+
+
+
+
+
             // Declaramos e inicializamos uma variavel pra armazenar e/ou manipular dados
             string inNome = "Romulo";
+            string inSobrenome = "Rosa";
+
+            // Exibimos os dados no console interpolação de strings
+            Console.WriteLine($"NOME: {inNome} | SOBRENOME: {inSobrenome}");
+
+
+
+
+
 
 
         }
