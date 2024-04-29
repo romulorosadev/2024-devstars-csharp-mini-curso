@@ -45,8 +45,11 @@ namespace FormLogica
             // (parametro) | O que desejamos que seja exibido como saída de dados
             // ;           | Fim da instrução
 
-            // INTERPOLAÇÃO DE STRINGS
-            // Forma usada concatenar dados string com variaveis
+            // CONCATENAÇÃO DE TEXTOS E VARIAVEIS
+            // ("texto " + nomevariavel + "texto " + nomevariavel)
+
+            // CONCATENAÇÃO USANDO INTERPOLAÇÃO DE STRINGS
+            // Forma mais atual usada concatenar dados string com variaveis
             // ($"texto {variavel} texto {inSobrenome}")
 
 
